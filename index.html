@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>READ ME!</title>
+	<style>
+		body {
+			background-image: url('lcci background.png');
+			background-size: cover;
+			color: rgb(191, 123, 123);
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 50px;
+			color: rgb(0, 0, 0);
+			animation: fade-in 5s;
+            animation: pulsate 2s ease-in-out infinite;
+		}
+
+		@keyframes fade-in {
+			0% { opacity: 0; }
+			100% { opacity: 3; }
+		}
+        @keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+        
+
+        #text-box {
+			background-color: rgba(72, 166, 209, 0.7);
+			padding: 80px;
+			border-radius: 20px;
+			margin: 50px auto;
+			max-width: 1000px;
+			position: relative;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        }
+
+		#text-box p {
+			text-align: justify;
+			font-size: 25px;
+            color: rgb(0, 0, 0);
+			margin-top: 50px;
+		}
+        #text-box p2 {
+			text-align: justify;
+			font-size: 25px;
+            color: rgb(0, 0, 0);
+			margin-top: 50px;
+		}
+        #text-box p3 {
+			text-align: justify;
+			font-size: 25px;
+            color: rgb(0, 0, 0);
+			margin-top: 50px;
+		}
+
+        #text-box p:last-child {
+			margin-bottom: 0;
+		}
+
+        #signature {
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
+			font-size: 16px;
+		}
+
+        #floating-image {
+  position: absolute;
+  top: 100;
+  left: 110;
+  width: 100px;
+  height: 100px;
+  animation: float 8s ease-in-out infinite;
+}
+#floating-image-2 {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 200px;
+  height: 200px;
+  animation: none;
+}
+@keyframes float {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  20% {
+    top: 90px;
+    right:50px;
+    left: 10%;
+    transform: translateX(-50%);
+  }
+  100% {
+    top: 10;
+    left: 220;
+  }
+}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Hello, I Just wanna say something</h1>
+	<div id="text-box">
+    <p>If i have the power or authority to choose the valedictorian of Computer Science, between High Grades or Highly Excel in Computer Science Technical Skills,</p>
+    <p2>Then i would choose someone with highly Technical skills because a students who is expert/excel in Technical skills, knows the in-outs of a computer or any technology in computer Science, he/she can teach the others that knowledge, than just having a high grades</p2>
+    <br>
+    <br>
+    <p2>Because technical skills are the backbone of success in computer science. A student who demonstrates exceptional technical proficiency despite lower grades may have a deeper understanding of the subject matter and be better equipped to tackle real-world challenges in the field.</p2>
+    <br>
+    <br>
+    <p3>Just wanna say that choose who really deserve an awards, dont be based on grades, because grades can be easily manipulated and not the skills acquired through hardwork and relentless study with trial and error. </p3>
+    <br>
+    <br>
+    <p3 id="signature">BSCS STUDENT,<br>Anonymous Charr</p3>
+</div>
+<img id="floating-image" src="LCCI LOGO.png" alt="Floating image"> 
+<img id="floating-image-2" src="LOGO COMSCIE FF.png" alt="Floating image">  
+</body>
+</html>
